@@ -31,7 +31,6 @@ def Check(message, ruleToCheck, rules):
     
     return True, totalCharsChecked
     
-
 def main():
     puzzleInputFile = open(sys.argv[1], 'r')
     puzzleInput = puzzleInputFile.read().split("\n\n")
